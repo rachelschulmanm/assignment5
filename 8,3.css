@@ -1,0 +1,42 @@
+.container{
+    border: 2px rgb(255, 255, 255) solid;
+    position: relative;
+    height: 700px;
+    width: 700px;
+}
+.o1{
+    border: 2px black solid;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-top: 0px ;
+    margin-bottom:500px ;
+}
+.t2{
+    border: 2px rgb(145, 182, 14) solid;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-top:70px ;
+    margin-left: 70px;
+    z-index: 2;
+    background-color: rgb(255, 255, 255);
+}
+.t3{
+    border: 2px rgb(121, 24, 24) solid;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    margin-top: 150px;
+    z-index: 3;
+    background-color: rgb(255, 255, 255);
+}
+.f4{
+    border: 2px rgb(22, 30, 99) solid;
+    width: 100px;
+    height: 500px;
+    position: absolute;
+    margin-left: 350px;
+    z-index: 4;
+    background-color: rgb(255, 255, 255);
+}

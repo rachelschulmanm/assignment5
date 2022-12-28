@@ -1,0 +1,18 @@
+.outer{
+    background-color: rgb(19, 15, 139);
+width: 500px;
+height: 500px;
+position: relative;
+color: aliceblue;
+/* font-size: 30px; */
+}
+
+
+.inner{
+    z-index: 1;
+background-color: rgb(31, 220, 94);
+width: 100px;
+height: 100px;
+position: relative;
+top: 10px ;
+}
